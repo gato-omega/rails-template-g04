@@ -2,6 +2,7 @@ Rails Template g05
 ==================
 
 * Ruby version
+
   Running under ruby-1.9.3-p374 (see .ruby-version file)
 
 * System dependencies
@@ -13,6 +14,8 @@ Rails Template g05
   Using zeus to run everything faster (https://github.com/burke/zeus)
 
 * Database creation
+
+  None required, using MongoDB
 
 * Database initialization
 
