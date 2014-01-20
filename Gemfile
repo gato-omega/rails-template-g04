@@ -6,6 +6,7 @@ gem 'rails', '3.2.16'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mongoid', '~> 3.1.6'
+gem 'bootstrap-sass', '~> 3.0.3.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
