@@ -1,15 +1,16 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+Rails Template g05
+==================
 
 * Ruby version
+  Running under ruby-1.9.3-p374 (see .ruby-version file)
 
 * System dependencies
 
+  Typical rails app gem apt dependencies
+
 * Configuration
+
+  Using zeus to run everything faster (https://github.com/burke/zeus)
 
 * Database creation
 
