@@ -1,0 +1,19 @@
+
+defaults: &defaults
+  cookie_secret_token: 65011fc26aa7c854baa9641c5c8c0e0db4dde7ae3e86d0f785fbb221b1341ae46a530226fbadebbe607443449c7f84ce75a7668b4c58377f27ac276d3ad45cf9
+
+development:
+  <<: *defaults
+  domain: lvh.me:3000
+
+test:
+  <<: *defaults
+  domain: test.host
+
+staging:
+  <<: *defaults
+  domain: staging.example.com
+
+production:
+  <<: *defaults
+  domain: example.com

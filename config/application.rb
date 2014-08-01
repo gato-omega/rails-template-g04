@@ -66,3 +66,6 @@ module RailsTemplateG05
     config.assets.version = '1.0'
   end
 end
+
+# Require all app configuration
+require File.expand_path(File.join('..', '..', 'lib', 'app_config.rb'), __FILE__)
